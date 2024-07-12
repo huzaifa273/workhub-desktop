@@ -1,0 +1,42 @@
+{
+  "name": "hubstaff-electron",
+  "productName": "hubstaff-electron",
+  "version": "1.0.0",
+  "description": "My Electron application description",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "echo \"No linting configured\""
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^7.4.0",
+    "@electron-forge/maker-deb": "^7.4.0",
+    "@electron-forge/maker-rpm": "^7.4.0",
+    "@electron-forge/maker-squirrel": "^7.4.0",
+    "@electron-forge/maker-zip": "^7.4.0",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.4.0",
+    "@electron-forge/plugin-fuses": "^7.4.0",
+    "@electron/fuses": "^1.8.0",
+    "electron": "31.0.1"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Malik Huzaifa Aawais",
+    "email": "malikhuzaifaawais1@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.598.0",
+    "@aws-sdk/s3-request-presigner": "^3.598.0",
+    "axios": "^1.7.2",
+    "electron-squirrel-startup": "^1.0.1",
+    "electron-store": "^10.0.0",
+    "form-data": "^4.0.0",
+    "fs-extra": "^11.2.0",
+    "screenshot-desktop": "^1.15.0",
+    "uiohook-napi": "^1.5.4"
+  }
+}
